@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("ML_From_Scratch_V1/data/student_pass.csv")
+df = pd.read_csv("data/student_pass.csv")
 
 # ===================================
 # Dashboard Layout
@@ -135,9 +135,9 @@ ax4.grid(True)
 # ===================================
 # Load stored loss values to visualize training performance.
 with open(
-    "ML_From_Scratch_V1/experiments/losses.json",
-    "r"
-) as file:
+    "experiments/losses.json"
+    
+ ) as file:
     losses = json.load(file)
 
 ax5.plot(

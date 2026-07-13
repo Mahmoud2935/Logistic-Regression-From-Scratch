@@ -11,7 +11,7 @@ df = pd.read_csv("data/student_pass.csv")
 x_data = df[["Hours","Attendance","Assignments"]]
 y_data = df["Pass"]
 
-# ليست ب نمباي  بحيث تقدر تعلم شافل وترين وتيست براحتك 
+# ليست ب نمباي  بحيث تقدر تعمل شافل وترين وتيست براحتك 
 x_data = x_data.to_numpy().tolist()
 y_data = y_data.to_list()
 
