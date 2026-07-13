@@ -11,7 +11,9 @@ df = pd.read_csv("data/student_pass.csv")
 x_data = df[["Hours","Attendance","Assignments"]]
 y_data = df["Pass"]
 
-# ليست ب نمباي  بحيث تقدر تعمل شافل وترين وتيست براحتك 
+# Convert pandas data structures into plain Python lists
+# for training the model from scratch.
+
 x_data = x_data.to_numpy().tolist()
 y_data = y_data.to_list()
 
