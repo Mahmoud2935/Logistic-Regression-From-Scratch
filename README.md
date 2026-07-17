@@ -226,6 +226,6 @@ python train.py
 
 ## Author
 
-**Mahmoud Mostfa Taha**
+**Mahmoud Azzam**
 
 Machine Learning Student
