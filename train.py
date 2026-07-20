@@ -7,7 +7,7 @@ import random
 
 
 df = pd.read_csv("data/student_pass.csv")
-
+ # Separate input features and target variable
 x_data = df[["Hours","Attendance","Assignments"]]
 y_data = df["Pass"]
 
